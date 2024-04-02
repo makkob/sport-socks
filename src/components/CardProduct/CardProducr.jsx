@@ -8,13 +8,20 @@ import styles from "./СardProduct.sass";
 export default function CardProduct({ product }) {
   return (
     <div
-      style={{padding: "50px"}}
+      style={{
+        padding: "10px",
+        border : "solid 1px white",
+        borderRadius : "12px",
+        margin: "0px 20px 20px 20px",
+        
+    
+    }}
     >
       <Image
         src={product.image}
         alt={product.name}
-        width={100}
-        height={100}
+        width={320}       
+        height={320}
         className="card-image"
         priority
       />

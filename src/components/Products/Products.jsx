@@ -38,7 +38,8 @@ export default function Products() {
     <div className={styles.cardsContainer} 
       style={{
         display: isDesktopOrLaptop ? "flex" : "grid",
-        flexDirection: isDesktopOrLaptop ? "row" : "column"
+        flexDirection: isDesktopOrLaptop ? "row" : "column",
+        width: "70%"
       }}
     >
       {productsData.map(product => (

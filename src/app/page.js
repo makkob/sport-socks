@@ -26,6 +26,7 @@ export default function Home() {
   return (
     <main>
       <Layout isPC={isPC}>
+      {/* <Layout> */}
         <Products></Products>
         <Contacts />
       </Layout>

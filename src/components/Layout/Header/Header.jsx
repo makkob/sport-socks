@@ -13,9 +13,11 @@ import {
 import _throttle from "lodash/throttle";
 import Image from "next/image";
 
-import Logo from "./img/NEON_HOLOS_PATH.svg";
+// import Logo from "./img/NEON_HOLOS_PATH.svg";
+import Logo from "./img/sport-socks-logo.jpg";
 import MenuIcon from "@mui/icons-material/Menu";
 import LogoPng from "./img/logo-no-bg.png";
+// import LogoPng from "./img/sport-socks-logo.jpg";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
 import styles from "./Header.sass";
