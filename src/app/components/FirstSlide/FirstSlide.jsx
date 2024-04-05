@@ -13,8 +13,7 @@ export default function FirstSlide() {
       <Image
         src="/images/2socks2.jpg" // Route of the image file
         layout="fill"
-        objectFit="cover"
-        alt="Description of image"
+        style={{objectFit:"cover"}}        alt="Description of image"
       />
     </div>
     <div className={styles.guarantee}>
