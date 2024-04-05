@@ -4,7 +4,10 @@ import FirstSlide from "./components/FirstSlide/FirstSlide"
 import Price from "./components/Price/Price"
 import DescriptionOne from "./components/DescriptionOne/DescriptionOne";
 import DescriptionTwo from "./components/DescriptionTwo/DescriptionTwo";
-
+import Characteristics from "./components/Characteristics/Characteristics";
+import CharacteristicsTwo from "./components/CharacteristicsTwo/CharacteristicsTwo";
+import Comments from "./components/Comments/Comments";
+import PriceEnd from "./components/PriceEnd/PriceEnd";
 
 export default function Home() {
   return (
@@ -13,6 +16,11 @@ export default function Home() {
      <Price/>
      <DescriptionOne />
      <DescriptionTwo />
+     <Characteristics />
+     <CharacteristicsTwo />
+     <Comments />
+     <FirstSlide />
+     <PriceEnd/>
     </main>
   );
 }
