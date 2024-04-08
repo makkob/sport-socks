@@ -8,9 +8,11 @@ import Characteristics from "./components/Characteristics/Characteristics";
 import CharacteristicsTwo from "./components/CharacteristicsTwo/CharacteristicsTwo";
 import Comments from "./components/Comments/Comments";
 import PriceEnd from "./components/PriceEnd/PriceEnd";
+import { ToastContainer } from 'react-toastify';
 
 export default function Home() {
-  return (
+  return (<>
+
     <main className={styles.main}>
      <FirstSlide />
      <Price/>
@@ -21,6 +23,8 @@ export default function Home() {
      <Comments />
      <FirstSlide />
      <PriceEnd/>
-    </main>
+     <ToastContainer />
+
+    </main></>
   );
 }
