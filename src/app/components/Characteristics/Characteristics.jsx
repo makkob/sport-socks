@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CottonIcon from "../../components/Icons/Cotton/Cotton";
+import SportShoesIcon from "../Icons/SportShoes/SportShoes"
 
 export default function DescriptionOne() {
   return (
@@ -31,16 +32,14 @@ export default function DescriptionOne() {
         <div className={styles.rectangle}>
           <span className={styles.characteristicDescription}>
             {" "}
-            <FontAwesomeIcon icon={faTshirt} height={14} />
-            {" "} 39-45
+            <SportShoesIcon />39-45 
           </span>
         </div>
         <span className={styles.characteristicName}> Сезон:</span>{" "}
         <div className={styles.rectangle}>
           <span className={styles.characteristicDescription}>
             {" "}
-            <FontAwesomeIcon icon={faCalendarAlt} height={14} />
-            {" "} Демісезонний
+            <FontAwesomeIcon icon={faCalendarAlt} height={14} /> Демісезонний
           </span>
         </div>
         <span className={styles.characteristicName}> Колір:</span>{" "}
@@ -52,16 +51,15 @@ export default function DescriptionOne() {
         <span className={styles.characteristicName}> Стиль:</span>{" "}
         <div className={styles.rectangle}>
           <span className={styles.characteristicDescription}>
-            <FontAwesomeIcon icon={faFutbol} height={14} />
-            {" "} Спортивний
+            <FontAwesomeIcon icon={faFutbol} height={14} /> Спортивний
           </span>
         </div>
-        <span className={styles.characteristicName}>Матеріал:</span>{" "}
+        {/* <span className={styles.characteristicName}>Матеріал:</span>{" "}
         <div className={styles.rectangle}>
           <span className={styles.characteristicDescription}>
             <CottonIcon /> Бавовна
           </span>
-        </div>
+        </div> */}
         <span className={styles.characteristicName}>Особливості:</span>{" "}
         <div className={styles.rectangle}>
           <span className={styles.characteristicDescription}>

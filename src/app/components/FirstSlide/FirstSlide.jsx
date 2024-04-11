@@ -7,11 +7,12 @@ import { faThumbsUp, faLeaf, faClock } from "@fortawesome/free-solid-svg-icons";
 export default function FirstSlide() {
   return (
     <div className={styles.container}>   
-    <h1 className={styles.title}>Шкарпетки спортивні</h1>
-    <h2 className={styles.subtitle}>З високоякісної бавовни</h2>
+    <h1 className={styles.title}>Спортивні тренувальні шкарпетки 
+    Tru Sox</h1>
+    {/* <h2 className={styles.subtitle}>З високоякісної бавовни</h2> */}
     <div className={styles.imageContainer}>
       <Image
-        src="/images/2socks2.jpg" // Route of the image file
+        src="/images/first2socksBGgrass.jpg" // Route of the image file
         layout="fill"
         style={{objectFit:"cover"}}        alt="Description of image"
       />

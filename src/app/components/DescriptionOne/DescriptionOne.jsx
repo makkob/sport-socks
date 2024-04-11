@@ -11,7 +11,7 @@ export default function DescriptionOne() {
       <h3 className={styles.title}>Комфорт при кожному кроці</h3>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/description2.jpg" // Route of the image file
+          src="/images/second1socksBGfootball.jpg" // Route of the image file
           layout="fill"
           style={{ objectFit: "cover" }}
           alt="Description of image"
@@ -19,7 +19,7 @@ export default function DescriptionOne() {
       </div>
       <p className={styles.text}>
         {" "}
-        Спортивні високі шкарпетки Трусокс забезпечують додаткову стабілізацію
+        Спортивні високі шкарпетки Tru Sox забезпечують додаткову стабілізацію
         завдяки силіконовим подушечкам, що покривають всю підошву. Ці силіконові
         подушечки розміщені так, щоб покривати всю підошву, а зверху є сіточка,
         щоб ноги могли дихати.
