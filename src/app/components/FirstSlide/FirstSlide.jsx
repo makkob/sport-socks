@@ -12,7 +12,7 @@ export default function FirstSlide() {
     {/* <h2 className={styles.subtitle}>З високоякісної бавовни</h2> */}
     <div className={styles.imageContainer}>
       <Image
-        src="/images/first2socksBGgrass.jpg" // Route of the image file
+        src="/images/SocksMain2.jpg" // Route of the image file
         layout="fill"
         style={{objectFit:"cover"}}        alt="Description of image"
       />

@@ -2,6 +2,7 @@
   "name": "sport-socks",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://makkob.github.io/sport-socks",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,5 +22,8 @@
     "react-dom": "^18",
     "react-toastify": "^10.0.5",
     "sharp": "^0.33.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

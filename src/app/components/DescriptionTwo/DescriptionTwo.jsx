@@ -8,7 +8,7 @@ export default function DescriptionTwo() {
       <h3 className={styles.title}>Носи із задоволенням</h3>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/descriptionText.png" // Route of the image file
+          src="/images/NosyZadovolennya.jpg" // Route of the image file
           layout="fill"
           style={{ objectFit: "cover" }}
           alt="Description of image"
