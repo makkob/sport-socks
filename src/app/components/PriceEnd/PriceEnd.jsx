@@ -22,10 +22,10 @@
         <div className={styles.container}>
           <div className={styles.sale}>Акція!</div>
           <strong className={styles.priceMain}>
-            250 <span className={styles.priceMainText}>грн</span>
+            600 <span className={styles.priceMainText}>грн</span>
           </strong>
           <s className={styles.oldPrice}>
-            350 <span>грн</span>
+            750 <span>грн</span>
           </s>
         </div>
         <div className={styles.redLine}></div>
