@@ -1,6 +1,11 @@
+'use client'
 import React from "react";
 import styles from "./Price.module.css";
 export default function Price() {
+  const handleClick = () => {
+    const element = document.getElementById("price-end");
+    if (element) element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div className={styles.container}>
@@ -13,7 +18,7 @@ export default function Price() {
         </s>
       </div>
       <div className={styles.redLine}></div>
-      <button className={styles.button}> ЗАМОВИТИ</button>
+      <button className={styles.button} onClick={handleClick}> ЗАМОВИТИ</button>
     </>
   );
 }

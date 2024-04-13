@@ -8,7 +8,7 @@
 }
 
 .sale {
-  background-color: red;
+  background-color:#d10707;
   color: #f9f9f9;
   border-radius: 4px;
   letter-spacing: 1px;
@@ -28,7 +28,7 @@
 }
 .redLine {
     /* margin: auto; */
-    background-color: red;
+    background-color: #d10707;
     height: 3px;
     width: 10rem;
      /* Adjust this value to move the line to the desired position */
@@ -50,7 +50,7 @@
     font-size: 36px;
     font-weight: 700;
     color: #F9F9F9;
-    background-color: #FF0000;
+    background-color: #d10707;
     padding: 10px 60px;
     border-radius: 16px;
     box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.3);;

@@ -20,8 +20,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
        <link rel="icon" href="/favicon.ico" sizes="any" />
-
+       <meta property="og:image" content="../../public/images/photo_2024-04-13_17-39-41.jpg" />
+       </head>
       <body className={montserrat.className}>{children}</body>
     </html>
   );

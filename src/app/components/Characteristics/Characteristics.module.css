@@ -23,7 +23,7 @@
   position: relative;
   width: 100%;
   /* width: 460px; */
-  height: 24rem;
+  height: 28rem;
 }
 
 .grid {
@@ -34,7 +34,7 @@
 
 }
 .rectangle{
-    background-color: #FF0000;
+    background-color: #d10707;
     margin:10px;
     border-radius: 16px;
     padding: 6px 10px;
