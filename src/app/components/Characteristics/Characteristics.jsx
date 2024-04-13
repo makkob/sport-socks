@@ -20,7 +20,7 @@ export default function DescriptionOne() {
       <h3 className={styles.title}>Характеристики</h3>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/characteristics2.jpg" // Route of the image file
+          src="/images/photo_2024-04-13_17-42-42.jpg" // Route of the image file
           layout="fill"
           style={{ objectFit: "cover" }}
           alt="Description of image"

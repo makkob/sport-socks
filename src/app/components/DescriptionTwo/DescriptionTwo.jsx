@@ -5,10 +5,10 @@ import styles from "./DescriptionTwo.module.css";
 export default function DescriptionTwo() {
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Носи із задоволенням</h3>
+      <h3 className={styles.title}>Грай із задоволенням</h3>
       <div className={styles.imageContainer}>
         <Image
-          src="/images/NosyZadovolennya.jpg" // Route of the image file
+          src="/images/photo_2024-04-13_17-39-41.jpg" // Route of the image file
           layout="fill"
           style={{ objectFit: "cover" }}
           alt="Description of image"

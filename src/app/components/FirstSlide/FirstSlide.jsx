@@ -4,28 +4,27 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faLeaf, faClock } from "@fortawesome/free-solid-svg-icons";
 
-export default function FirstSlide() {
+export default function FirstSlide({ title, imgSrc, qualityGuarantee, ecoFriendly, limitedOffer }) {
   return (
-    <div className={styles.container}>   
-    <h1 className={styles.title}>Спортивні тренувальні шкарпетки 
-    Tru Sox</h1>
-    {/* <h2 className={styles.subtitle}>З високоякісної бавовни</h2> */}
-    <div className={styles.imageContainer}>
-      <Image
-        src="/images/SocksMain2.jpg" // Route of the image file
-        layout="fill"
-        style={{objectFit:"cover"}}        alt="Description of image"
-      />
+    <div className={styles.container}>
+      <h1 className={styles.title}>{title}</h1>
+      <h2 className={styles.subtitle}>З високоякісної бавовни</h2>
+      <div className={styles.imageContainer}>
+        <Image
+          src={imgSrc}
+          layout="fill"
+          objectFit="cover"
+          alt="Description of image"
+        />
+      </div>
+      <div className={styles.guarantee}>
+        <FontAwesomeIcon icon={faThumbsUp} height={20} />
+        <span>{qualityGuarantee}</span>
+        <FontAwesomeIcon icon={faLeaf} height={20} />
+        <span>{ecoFriendly}</span>
+        <FontAwesomeIcon icon={faClock} height={20} />
+        <span>{limitedOffer}</span>
+      </div>
     </div>
-    <div className={styles.guarantee}>
-      <FontAwesomeIcon icon={faThumbsUp} height={20}/>
-      <span>Гарантія якості</span>
-      <FontAwesomeIcon icon={faLeaf}  height={20}/>
-      <span>Екологічність</span>
-      <FontAwesomeIcon icon={faClock} height={20}/>
-      <span>Лімітована пропозиція</span>
-    </div>
-  </div>
-  
   );
 }

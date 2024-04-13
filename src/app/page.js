@@ -14,14 +14,27 @@ export default function Home() {
   return (<>
 
     <main className={styles.main}>
-     <FirstSlide />
+    <FirstSlide
+          title="Спортивні тренувальні шкарпетки"
+          imgSrc="/images/photo_2024-04-13_16-26-40.jpg"
+          qualityGuarantee="Гарантія якості"
+          ecoFriendly="Екологічність"
+          limitedOffer="Лімітована пропозиція"
+        />
      <Price/>
      <DescriptionOne />
      <DescriptionTwo />
      <Characteristics />
      <CharacteristicsTwo />
      <Comments />
-     <FirstSlide />
+     <FirstSlide
+          title="Шкарпетки спортивні"
+          subtitle="З високоякісної бавовни"
+          imgSrc="/images/photo_2024-04-13_17-51-12.jpg"
+          qualityGuarantee="Нова гарантія"
+          ecoFriendly="Більш екологічні"
+          limitedOffer="Нова пропозиція"
+        />
      <PriceEnd/>
      <ToastContainer />
 
