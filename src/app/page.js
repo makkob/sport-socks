@@ -29,7 +29,7 @@ export default function Home() {
      <Comments />
      <FirstSlide
           title="Шкарпетки спортивні"
-          subtitle="З високоякісної бавовни"
+          // subtitle="З високоякісної бавовни"
           imgSrc="/images/photo_2024-04-13_17-51-12.jpg"
           qualityGuarantee="Нова гарантія"
           ecoFriendly="Більш екологічні"
