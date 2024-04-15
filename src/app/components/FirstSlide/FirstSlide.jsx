@@ -8,7 +8,7 @@ export default function FirstSlide({ title,subtitle, imgSrc, qualityGuarantee, e
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>{title}</h1>
-      <h2 className={styles.subtitle}>{subtitle}</h2>
+      {/* <h2 className={styles.subtitle}>{subtitle}</h2> */}
       <div className={styles.imageContainer}>
         <Image
           src={imgSrc}

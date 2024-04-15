@@ -18,18 +18,18 @@ export default function PriceEnd() {
 
     // Google Form URL
     // Никита
-    // const GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKbTZEkPdhqGhujS4KzF0qkGHNXpoqvNzh4EWIZ5-Yq2tUVQ/formResponse";
+    const GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKbTZEkPdhqGhujS4KzF0qkGHNXpoqvNzh4EWIZ5-Yq2tUVQ/formResponse";
     // Entry IDs of the form fields
-    // const ENTRY_ID_FOR_NAME = "entry.2129246310";
-    // const ENTRY_ID_FOR_PHONE = "entry.1442003560";
-    // const ENTRY_ID_FOR_PAIR = "";
+    const ENTRY_ID_FOR_NAME = "entry.1020130990";
+    const ENTRY_ID_FOR_PHONE = "entry.1088637230";
+    const ENTRY_ID_FOR_PAIR = "entry.323088466";
 
     //Миша
-    const GOOGLE_FORM_ACTION_URL =
-      "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcrtv9btrsfwCg6h9l_UBjhXSqbpfZPXHWFNS9_ocRoUA99g/formResponse";
-    const ENTRY_ID_FOR_NAME = "entry.2071186125";
-    const ENTRY_ID_FOR_PHONE = "entry.508270167";
-    const ENTRY_ID_FOR_PAIR = "entry.365889611";
+    // const GOOGLE_FORM_ACTION_URL =
+    //   "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcrtv9btrsfwCg6h9l_UBjhXSqbpfZPXHWFNS9_ocRoUA99g/formResponse";
+    // const ENTRY_ID_FOR_NAME = "entry.2071186125";
+    // const ENTRY_ID_FOR_PHONE = "entry.508270167";
+    // const ENTRY_ID_FOR_PAIR = "entry.365889611";
     // Create a FormData object
     let formData = new FormData();
     formData.append(ENTRY_ID_FOR_NAME, name);
@@ -105,8 +105,8 @@ export default function PriceEnd() {
           value={pair}
         >
           <option value="1 пара" >1 пара</option>
-          <option value="2 пары">2 пари</option>
-          <option value="3 пары">3 пари</option>
+          <option value="2 пари">2 пари</option>
+          <option value="3 пари">3 пари</option>
         </select>
         <button type="submit" className={styles.button}>
           {" "}
