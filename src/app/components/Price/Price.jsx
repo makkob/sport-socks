@@ -11,7 +11,7 @@ export default function Price() {
       <div className={styles.container}>
         <div className={styles.sale}>Акція!</div>
         <strong className={styles.priceMain}>
-          250 <span className={styles.priceMainText}>грн</span>
+          180 <span className={styles.priceMainText}>грн</span>
         </strong>
         <s className={styles.oldPrice}>
           350 <span>грн</span>
