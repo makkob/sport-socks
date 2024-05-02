@@ -45,8 +45,9 @@ export default function PriceEnd() {
     // Проверка загрузки Facebook Pixel перед отслеживанием события
     // if (window.fbq && pixelLoaded) {
     if (window.fbq) {
-      console.log("/////////////window.fbq: ", window.fbq);
+      // console.log("/////////////window.fbq: ", window.fbq);
       window.fbq('track', 'SubmitForm');
+
     } else {
       console.error('Facebook Pixel not loaded yet.');
     }
